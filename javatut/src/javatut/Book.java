@@ -1,12 +1,12 @@
 package javatut;
 
-public class book implements Comparable{
+public class Book implements Comparable{
 	
 	int id;
 	String name, author, isbn;
 	double price;
 	
-	book(int id, String name, String author, String isbn, double price){
+	Book(int id, String name, String author, String isbn, double price){
 		this.id = id;
 		this.name = name;
 		this.author = author;
